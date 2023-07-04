@@ -5,7 +5,7 @@
 
 /**
  * main - check the code
- * 
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -22,6 +22,7 @@ if (new == NULL)
 printf("Error\n");
 return (1);
 }
+
 new->n = 9;
 new->next = head;
 head = new;
