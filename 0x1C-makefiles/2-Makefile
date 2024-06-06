@@ -1,8 +1,8 @@
 #.
-CC=gcc
-SRC =main.c school.c
+CC= gcc
+SRC = main.c school.c
 OBJ = ${SRC:%.r=%.c}
-NAME =school
+NAME = school
 
 all: ${OBJ}
 	${CC} ${OBJ} -o ${NAME}
